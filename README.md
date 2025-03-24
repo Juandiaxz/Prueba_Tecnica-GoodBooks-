@@ -54,6 +54,8 @@ Agregar Autores
 
 
 Diagrama Entidad-Relación
+
+
 ![image](https://github.com/user-attachments/assets/1c9ca4f8-eae0-4c73-8068-0a96c7d6ad5f)
 
 
