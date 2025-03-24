@@ -1,10 +1,14 @@
-#GoodBooks - Aplicación ASP.NET MVC
+GoodBooks - Aplicación ASP.NET MVC
 
-##Descripción del Proyecto
+Descripción del Proyecto
+
+🚀 GoodBooks es una aplicación web poderosa y eficiente que facilita la gestión de libros y autores.
 
 GoodBooks es una aplicación web desarrollada en ASP.NET MVC con C# y SQL Server. Permite gestionar un catálogo de libros y sus autores, almacenando la información en una base de datos relacional. La aplicación proporciona funcionalidades para listar, agregar y administrar libros y autores.
 
-##Tecnologías Utilizadas
+Tecnologías Utilizadas
+
+🛠️ Herramientas clave utilizadas en el desarrollo:
 
 ASP.NET MVC 5
 
@@ -12,11 +16,13 @@ C# (.NET Framework/Core)
 
 SQL Server + Entity Framework
 
-Bootstrap, CSS y HTML para el diseño de la interfaz
+Bootstrap para el diseño de la interfaz
 
 GitHub para control de versiones
 
-##Pasos para Configurar y Ejecutar la Aplicación
+Pasos para Configurar y Ejecutar la Aplicación
+
+📌 Sigue estos pasos para ejecutar el proyecto correctamente:
 
 1. Clonar el Repositorio
 
@@ -41,7 +47,9 @@ En Visual Studio, presionar Ctrl + F5 o ejecutar el siguiente comando:
 
 dotnet run
 
-##Capturas de Pantalla
+Capturas de Pantalla
+
+📷 Ejemplos visuales de la aplicación en funcionamiento:
 
 Página Principal
 ![image](https://github.com/user-attachments/assets/660bce8c-84fa-440e-b3d5-e6b20f2110f5)
@@ -52,10 +60,14 @@ Agregar Libros
 Agregar Autores
 ![image](https://github.com/user-attachments/assets/89e21d6e-581b-44f5-9b9c-d4224e863393)
 
-
 Diagrama Entidad-Relación
+
+📊 Estructura de la base de datos:
 
 
 ![image](https://github.com/user-attachments/assets/1c9ca4f8-eae0-4c73-8068-0a96c7d6ad5f)
+
+
+
 
 
