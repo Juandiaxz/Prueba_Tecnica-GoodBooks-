@@ -1,35 +1,35 @@
-GoodBooks - Aplicación ASP.NET MVC
+# GoodBooks - Aplicación ASP.NET MVC
 
-Descripción del Proyecto
+## 🚀 Descripción del Proyecto
 
-🚀 GoodBooks es una aplicación web poderosa y eficiente que facilita la gestión de libros y autores.
+**GoodBooks** es una aplicación web poderosa y eficiente que facilita la gestión de libros y autores.
 
-GoodBooks es una aplicación web desarrollada en ASP.NET MVC con C# y SQL Server. Permite gestionar un catálogo de libros y sus autores, almacenando la información en una base de datos relacional. La aplicación proporciona funcionalidades para listar, agregar y administrar libros y autores.
+GoodBooks es una aplicación web desarrollada en **ASP.NET MVC con C# y SQL Server**. Permite gestionar un catálogo de libros y sus autores, almacenando la información en una base de datos relacional. La aplicación proporciona funcionalidades para listar, agregar y administrar libros y autores.
 
-Tecnologías Utilizadas
+---
 
-🛠️ Herramientas clave utilizadas en el desarrollo:
+## 🛠 Tecnologías Utilizadas
 
-ASP.NET MVC 5
+Las principales tecnologías empleadas en este proyecto incluyen:
 
-C# (.NET Framework/Core)
+- **ASP.NET MVC 5**
+- **C# (.NET Framework/Core)**
+- **SQL Server + Entity Framework**
+- **Bootstrap, CSS y HTML** para el diseño de la interfaz
+- **GitHub** para control de versiones
 
-SQL Server + Entity Framework
+---
 
-Bootstrap para el diseño de la interfaz
+## 📌 Pasos para Configurar y Ejecutar la Aplicación
 
-GitHub para control de versiones
+### 🔹 1. Clonar el Repositorio
 
-Pasos para Configurar y Ejecutar la Aplicación
-
-📌 Sigue estos pasos para ejecutar el proyecto correctamente:
-
-1. Clonar el Repositorio
-
+```bash
 git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git
 cd NOMBRE_DEL_REPO
+```
 
-2. Configurar la Base de Datos
+###  2. Configurar la Base de Datos
 
 Abrir SQL Server Management Studio (SSMS).
 
@@ -37,17 +37,19 @@ Ejecutar el script database/script.sql para crear la base de datos y las tablas.
 
 Configurar la cadena de conexión en appsettings.json o web.config:
 
+```json
 "ConnectionStrings": {
     "DefaultConnection": "Server=TU_SERVIDOR;Database=NOMBRE_BD;User Id=TU_USUARIO;Password=TU_PASSWORD;"
 }
+```
 
-3. Ejecutar la Aplicación
+### 3. Ejecutar la Aplicación
 
 En Visual Studio, presionar Ctrl + F5 o ejecutar el siguiente comando:
-
+```bash
 dotnet run
-
-Capturas de Pantalla
+```
+### Capturas de Pantalla
 
 📷 Ejemplos visuales de la aplicación en funcionamiento:
 
