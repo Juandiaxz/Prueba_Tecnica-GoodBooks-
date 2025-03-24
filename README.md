@@ -2,7 +2,7 @@
 
 ## 🚀 Descripción del Proyecto
 
-**GoodBooks** es una aplicación web poderosa y eficiente que facilita la gestión de libros y autores.
+**GoodBooks** es una aplicación web de gestión de libros y autores
 
 GoodBooks es una aplicación web desarrollada en **ASP.NET MVC con C# y SQL Server**. Permite gestionar un catálogo de libros y sus autores, almacenando la información en una base de datos relacional. La aplicación proporciona funcionalidades para listar, agregar y administrar libros y autores.
 
