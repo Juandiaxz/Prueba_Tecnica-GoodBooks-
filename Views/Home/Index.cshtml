@@ -1,0 +1,34 @@
+﻿@model List<GoodBooks.Models.Libro>
+
+<h2 class="title_home"> Registro de Libros</h2>
+
+
+<div class="table-container">
+
+    <table class="table_home">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Título</th>
+                <th>Autor</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var libro in Model)
+            {
+                <tr>
+                    <td>@libro.ID</td>
+                    <td>@libro.Titulo</td>
+                    <td>@libro.Autor.Nombre</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="buttons_change">
+        <a href="/Libros/Create" class="btn btn-primary">Agregar Libro</a>
+        <a href="/Autores/Create" class="btn btn-secondary">Agregar Autor</a>
+    </div>
+
+</div>
+

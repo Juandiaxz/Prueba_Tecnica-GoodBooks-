@@ -1,0 +1,25 @@
+﻿@model GoodBooks.Models.Libro
+
+<h2>Agregar Libro</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Titulo"></label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AutorID"></label>
+        <select asp-for="AutorID" class="form-control" asp-items="ViewBag.Autores">
+            <option value="0">Seleccione un autor</option>
+        </select>
+        <span asp-validation-for="AutorID" class="text-danger"></span>
+    </div>
+
+    <div class="btn_libro">
+
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+   
+</form>

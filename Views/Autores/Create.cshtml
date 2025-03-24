@@ -1,0 +1,29 @@
+﻿@model GoodBooks.Models.Autor
+
+<h2>Agregar Autor</h2>
+
+<div class="row">
+	<div class="col-md-12">
+
+		@using (Html.BeginForm("Create","Autores",FormMethod.Post, new { role = "form" }))
+		{
+
+			@Html.AntiForgeryToken()
+			@Html.ValidationSummary(true, "", new { @class = "text-danger" }) <!-- Muestra errores de validación -->
+			
+			<div class="form-group">
+				@Html.LabelFor(d => d.Nombre)
+				@Html.TextBoxFor(d => d.Nombre, new { @class = "form-control" })
+				@Html.ValidationMessageFor(d => d.Nombre, "", new { @class = "text-danger" })
+			</div>
+			
+		
+		
+			
+		<div style="text-align:right;" class="btn_autor">
+			<input type="submit" class="btn btn-success" value="Guardar" />
+			
+		</div>
+		}
+	</div>
+</div>
