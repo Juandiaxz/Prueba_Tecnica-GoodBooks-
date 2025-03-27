@@ -33,9 +33,7 @@ cd NOMBRE_DEL_REPO
 
 Abrir SQL Server Management Studio (SSMS).
 
-Ejecutar el script database/script.sql para crear la base de datos y las tablas.
-
-Configurar la cadena de conexión en appsettings.json o web.config:
+Crear una base de datos con el nombre de "GoodBooks", configurando el nombre de la conexión
 
 ```json
 "ConnectionStrings": {
